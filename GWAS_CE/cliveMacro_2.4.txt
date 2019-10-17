@@ -1,3 +1,6 @@
+// Author: Ethan Stewart
+// 2017.7
+
 // Path to folder of images
 setOption("JFileChooser", true);
  
