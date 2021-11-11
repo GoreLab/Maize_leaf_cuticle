@@ -1,11 +1,3 @@
-cd /workdir/ml2498/hap_gwas #robbins' server
-scp cbsugore02:/workdir/ml2498/MaizeLeafCuticle/TWAS_2018/NAM_NIL/haploview/300K_window/robbins_server/* .
-
-cd /workdir/ml2498/MaizeLeafCuticle/TWAS_2018/NAM_NIL/haploview/300K_window/robbins_server
-mkdir results
-cd results
-scp cbsurobbins:/workdir/ml2498/hap_gwas/* .
-
 ### format genotype, phenotype and kinship matrix for ASReml GWAS
 
 library(data.table)
